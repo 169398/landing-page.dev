@@ -30,7 +30,6 @@ export const FloatingNav = ({
     (current) => {
       // Check if current is not undefined and is a number
       if (typeof current === 'number') {
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         const direction =
           current - scrollYProgress.getPrevious()!
 
@@ -94,11 +93,7 @@ export const FloatingNav = ({
             dark:border-white/[0.2] text-black dark:text-white px-4 py-2
             rounded-full"
         >
-          <span>Login</span>
-          <span
-            className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r
-              from-transparent via-blue-500 to-transparent h-px"
-          />
+        
         </button>
       </motion.div>
     </AnimatePresence>
