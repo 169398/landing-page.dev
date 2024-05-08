@@ -1,13 +1,17 @@
 import { CardUi } from "@/components/cards";
 import { Header } from "@/components/header";
-import { Navbar } from "@/components/navbar";
+import Hero from "@/components/hero";
+
+
 
 export default function Home() {
   return (
     <>
-      <Navbar />
-      
-          <Header />
+      <div>
+      <Header />
+
+        
+      </div>
         <CardUi />
     </>
   );

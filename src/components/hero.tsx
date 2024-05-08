@@ -1,39 +1,31 @@
+"use client";
 import React from "react";
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button } from "@nextui-org/react";
+import Link from "next/link";
+import { FloatingNav } from './ui/floating-navbar'
 
-export default function Hero(): JSX.Element {
+
+const Hero = () => {
+ 
+  const navbar={
+    name: 'Swipe',
+    link: '/',
+  }
+
   return (
-    <Navbar shouldHideOnScroll>
-      <NavbarBrand>
-        <p className="font-bold text-inherit">ACME</p>
-      </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Features
-          </Link>
-        </NavbarItem>
-        <NavbarItem isActive>
-          <Link href="#" aria-current="page">
-            Customers
-          </Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Link color="foreground" href="#">
-            Integrations
-          </Link>
-        </NavbarItem>
-      </NavbarContent>
-      <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
-        <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
-          </Button>
-        </NavbarItem>
-      </NavbarContent>
-    </Navbar>
+    <div className="fixed top-0 inset-x-0 h-fit cursor-pointer bg-zinc-400 border-b border-zinc-300 z-[10] py-2">
+      <div className="container max-w-7xl h-full mx-auto flex  items-center justify-between gap-2">
+       
+        <Link href="/">
+        <div className="text-pink-700   text-3xl font-bold text-right   md:block">
+
+          <FloatingNav navItems={[navbar]} />
+        </div>
+
+         
+        </Link>
+      </div>
+    </div>
   );
-}
+};
+
+export default Hero;
