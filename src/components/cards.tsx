@@ -1,4 +1,6 @@
+import { link } from "fs";
 import { Cards } from "./ui/card";
+import Emoji from "react-emoji-render";
 
 export function CardUi() {
   return (
@@ -9,25 +11,31 @@ export function CardUi() {
 }
 export const projects = [
   {
-    title: "Effortless Setup",
-    description:
-      "Sign in,create your shop ,add pictures and display your products in minutes  .",
-    
+    title: "Effortless Setup🛠️ ",
+  
+    description:    "Sign in,create your shop ,add pictures and display your products in minutes  .",
+    link: "/"
   },
   {
-    title: "Massive Audience",
+    title: "Massive Audience📈",
     description:
       "Connect with thousands of buyers close to you and from different cumpuses for free.",
+      link: "/"
+
   },
   {
-    title: "Safe Transaction",
+    title: "Safe Transactions 💰",
     description:
       "Swipe handles all our payments  so you focus on selling and customers to buying.",
+      link: "/"
+
   },
   {
-    title: "Fast Communications ",
+    title: "Fast Communications📩 ",
     description:
       "Inbuilt chat allows instant communication with customers for efficient business.",
+      link: "/"
+
   },
  
 ];

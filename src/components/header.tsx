@@ -1,5 +1,6 @@
 import React from 'react'
 import { Vortex } from './ui/vortex'
+import Emoji from 'react-emoji-render'
 
 export function Header() {
   return (
@@ -25,7 +26,12 @@ export function Header() {
         <p className="text-white text-sm md:text-2xl  max-w-xl mt-6 text-center">
          Tired with flea market drama ,join swipe ,the easiest way for to buy and sell on cumpus hassle free and secure transactions
         </p>
+        <br/>
+        <br/>
+
+        <p className=" font-bold text-4xl text-center text-cyan-300"> Swipe offers<Emoji text="👇" /> </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6"></div>
+
       </Vortex>
 
 
