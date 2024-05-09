@@ -1,6 +1,7 @@
 import React from 'react'
 import { Vortex } from './ui/vortex'
 import Emoji from 'react-emoji-render'
+import { WavyBackground } from './ui/wavy-background'
 
 export function Header() {
   return (
@@ -23,7 +24,7 @@ export function Header() {
           Sell like a Boss and Buy with confidence🛍️
         </h2>
         <br/>
-        <p className="text-white text-sm md:text-2xl  max-w-xl mt-6 text-center">
+        <p className="text-white text-sm md:text-2xl font-normal  max-w-xl mt-6 text-center">
          Tired with flea market drama ,join swipe ,the easiest way for to buy and sell on cumpus hassle free and secure transactions
         </p>
         <br/>

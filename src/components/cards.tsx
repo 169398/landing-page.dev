@@ -1,10 +1,12 @@
 import { link } from "fs";
 import { Cards } from "./ui/card";
-import Emoji from "react-emoji-render";
+import { Vortex } from "./ui/vortex";
 
 export function CardUi() {
   return (
     <div className="max-w-5xl mx-auto px-8">
+
+
       <Cards items={projects} />
     </div>
   );

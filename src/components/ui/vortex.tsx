@@ -289,6 +289,7 @@ export const Vortex = (props: VortexProps) => {
   return (
     <div
       className={cn(
+        //check this about the height
         'relative h-full w-full',
         props.containerClassName
       )}

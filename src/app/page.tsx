@@ -1,6 +1,7 @@
+import { Action } from "@/components/action";
 import { CardUi } from "@/components/cards";
 import { Header } from "@/components/header";
-import Hero from "@/components/hero";
+import { Lamp } from "@/components/ui/lamp";
 
 
 
@@ -13,6 +14,9 @@ export default function Home() {
         
       </div>
         <CardUi />
+        <div>
+          <Action/>
+        </div>
     </>
   );
 }
