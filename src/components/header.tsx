@@ -8,7 +8,7 @@ import Link from 'next/link'
 export function Header() {
   return (
     <div
-    className="w-full mx-auto rounded-md h-96 overflow-hidden"
+    className="w-full mx-auto rounded-md h-1/2 overflow-hidden"
 
     >
       <Vortex
