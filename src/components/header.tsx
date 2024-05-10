@@ -2,6 +2,8 @@ import React from 'react'
 import { Vortex } from './ui/vortex'
 import Emoji from 'react-emoji-render'
 import { WavyBackground } from './ui/wavy-background'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export function Header() {
   return (
@@ -17,8 +19,17 @@ export function Header() {
         className="flex items-center flex-col justify-center px-2 md:px-10 py-0
           w-full h-full"
       >
-        <h1 className='text-6xl font-extrabold  text-center text-cyan-300 cursor-pointer '>Swipe</h1>
-        <br/>
+<div className='text-center'>
+  <Image
+    src='/assets/images/logo.png'
+    alt='logo'
+    width={200}
+    height={200}
+    className='inline-block cursor-pointer'
+  /> 
+ 
+</div>
+
 
         <h2 className="text-white text-1xl md:text-4xl font-bold text-center">
           Sell like a Boss and Buy with confidence🛍️
