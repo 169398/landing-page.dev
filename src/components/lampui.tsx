@@ -16,7 +16,7 @@ export function Lamp() {
         }}
         className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
-        Start your dream business <br /> with swipe today
+        Start your dream business <br /> with swipe today Share it with your friends and families.We need you to make Swipe great.
       </motion.h1>
     </LampContainer>
   );

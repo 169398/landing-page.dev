@@ -26,8 +26,7 @@ export function Action() {
           Start your dream business <br /> with swipe today
           </p>
           <p className="text-base md:text-lg mt-4 font-normal inter-var">
-            The most effective way to setup your shop online and start selling 
-          </p>
+          Ready to be your own boss? Set up your shop on Swipe in minutes and start selling today Share Swipe with your friends and family,together we can build something amazing          </p>
         </div>
         </motion.h1>
     </LampContainer>
