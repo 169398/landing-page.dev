@@ -8,7 +8,7 @@ import { MantineProvider } from '@mantine/core';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "create your online shop today",
+  title: "Create your online shop today",
   description: "Easy and efficient buying and selling of goods on cumpus",
 };
 
