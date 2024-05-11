@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider"
+import { MantineProvider } from '@mantine/core';
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <MantineProvider >
           <ThemeProvider
             attribute="class"
             defaultTheme="dark"
@@ -27,6 +29,7 @@ export default function RootLayout({
           >
             {children}
           </ThemeProvider>
+          </MantineProvider>
         </body>
     </html>
   );
