@@ -13,29 +13,29 @@ export function CardUi() {
 }
 export const projects = [
   {
-    title: "Effortless Setup🛠️ ",
+    title: "Effortless Setup⏰  ",
   
-    description:    "Sign in,create your shop ,add pictures and display your products in minutes  .",
+    description:    " Sign up, create your shop, add pics, and sell - all in minutes!  .",
     link: "/"
   },
   {
     title: "Massive Audience📈",
     description:
-      "Connect with thousands of buyers close to you and from different cumpuses for free.",
+      "Reach thousands of buyers on your campus and beyond easily.",
       link: "/"
 
   },
   {
     title: "Safe Transactions 💰",
     description:
-      "Swipe handles all our payments  so you focus on selling and customers to buying.",
+      "Swipe handles payments, so you focus on selling..",
       link: "/"
 
   },
   {
     title: "Fast Communications📩 ",
     description:
-      "Inbuilt chat allows instant communication with customers for efficient business.",
+      "Built-in chat allows instant messaging with customers..",
       link: "/"
 
   },

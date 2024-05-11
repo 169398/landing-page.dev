@@ -32,12 +32,11 @@ export function Header() {
 
 
         <h2 className="text-white text-1xl md:text-4xl font-bold text-center">
-          Sell like a Boss and Buy with confidence🛍️
+          Sell like a Boss, Buy with confidence🛍️
         </h2>
         <br/>
         <p className="text-white text-sm md:text-2xl font-normal  max-w-xl mt-6 text-center">
-         Tired with flea market drama ,join swipe ,the easiest way for to buy and sell on cumpus hassle free and secure transactions
-        </p>
+        Tired of crowded flea markets and unreliable deals? Swipe is your one-stop shop for a seamless campus buying and selling experience.        </p>
         <br/>
         <br/>
 
