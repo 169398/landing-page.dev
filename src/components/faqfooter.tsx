@@ -1,42 +1,28 @@
+"use client";
 
+import Link from "next/link";
 
-'use client';
-
-import Link from 'next/link';
-
-import { Disclosure } from '@headlessui/react';
-import { JSX, SVGProps } from 'react';
+import { Disclosure } from "@headlessui/react";
+import { JSX, SVGProps } from "react";
 
 const faqs = [
   {
     id: 1,
-    question: '#1 Your question should go in here?',
+    question: "What is Swipe?",
     answer:
-      'Aenean diam lectus, ullamcorper ac ipsum a, convallis maximus odio. In hac habitasse platea dictumst. Donec elementum nisi ac magna gravida, at consectetur dolor tristique.',
+      "Swipe is an online marketplace that empowers students and aspiring entrepreneurs to set up their own online stores. By targeting a campus audience, Swipe provides a platform for students to sell their products and build their entrepreneurial journey. Swipe takes care of transactions and store hosting, allowing you to manage your business from anywhere, even your mobile device.",
   },
   {
     id: 2,
-    question: '#2 Your question should go in here?',
+    question: "How does Swipe work?",
     answer:
-      'Aenean diam lectus, ullamcorper ac ipsum a, convallis maximus odio. In hac habitasse platea dictumst. Donec elementum nisi ac magna gravida, at consectetur dolor tristique.',
+      "Swipe works as a two-sided marketplace. On one hand, you can browse a wide range of products from various categories and make purchases directly from sellers. On the other hand, you can set up your own business for free and start selling your products through a simple process.",
   },
   {
     id: 3,
-    question: '#3 Your question should go in here?',
+    question: "How to join Swipe?",
     answer:
-      'Aenean diam lectus, ullamcorper ac ipsum a, convallis maximus odio. In hac habitasse platea dictumst. Donec elementum nisi ac magna gravida, at consectetur dolor tristique.',
-  },
-  {
-    id: 4,
-    question: '#4 Your question should go in here?',
-    answer:
-      'Aenean diam lectus, ullamcorper ac ipsum a, convallis maximus odio. In hac habitasse platea dictumst. Donec elementum nisi ac magna gravida, at consectetur dolor tristique.',
-  },
-  {
-    id: 5,
-    question: '#5 Your question should go in here?',
-    answer:
-      'Aenean diam lectus, ullamcorper ac ipsum a, convallis maximus odio. In hac habitasse platea dictumst. Donec elementum nisi ac magna gravida, at consectetur dolor tristique.',
+      "Joining Swipe is completely free! Simply register for an account and start browsing the vast selection of products across different categories. If you have something to sell, you can easily add your business and begin selling your products in no time.",
   },
 ];
 
@@ -49,13 +35,6 @@ export default function FAQ() {
             <h2 className="text-4xl font-bold leading-tight tracking-wide text-neutral-900 dark:text-neutral-50 xl:text-5xl">
               FAQs
             </h2>
-            <p className="mt-6 text-lg text-neutral-600 dark:text-neutral-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
-              vestibulum id augue vitae tincidunt. Donec vel orci pretium,
-              congue arcu non, semper dui. Praesent eget tempor lacus. Integer
-              eu iaculis leo. Praesent ullamcorper ex sit amet lacus pharetra,
-              vitae imperdiet magna bibendum.
-            </p>
           </div>
 
           <dl className="mt-24 space-y-6 divide-y divide-neutral-900/10 dark:divide-white/30">
@@ -96,13 +75,13 @@ export default function FAQ() {
         </h3>
 
         <p className="mx-auto mt-6 max-w-2xl text-base text-neutral-600 dark:text-neutral-400 md:text-lg">
-          Maecenas diam purus, aliquam et gravida ut, fermentum ut est.
-          Pellentesque habitant morbi tristique senectus et netus et malesuada.
+          If you have any questions or need help, feel free to contact us. Our
+          team will be more than happy to assist you.
         </p>
 
         <div className="mt-10">
           <Link
-            href="#"
+            href="mailto:kulubiidris@gmail.com"
             className="rounded-md bg-neutral-900 px-10 py-3 text-sm font-semibold text-white shadow-sm hover:bg-neutral-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-500 dark:bg-neutral-50 dark:text-neutral-900 dark:hover:bg-neutral-300 dark:focus-visible:outline-neutral-400"
           >
             Contact
