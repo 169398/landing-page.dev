@@ -12,6 +12,8 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Create your online shop today",
   description: "Easy and efficient buying and selling of goods on cumpus",
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
+
   twitter: {
     card: 'summary_large_image',
     title:
