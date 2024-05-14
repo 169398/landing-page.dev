@@ -4,6 +4,8 @@ import Emoji from 'react-emoji-render'
 import { WavyBackground } from './ui/wavy-background'
 import Image from 'next/image'
 import Link from 'next/link'
+import EmailForm from "@/components/EmailFom";
+
 
 export function Header() {
   return (
@@ -38,6 +40,7 @@ export function Header() {
         <p className="text-white text-sm md:text-2xl font-normal  max-w-xl mt-6 text-center">
         Tired of crowded flea markets and unreliable deals? Swipe is your one-stop shop for a seamless campus buying and selling experience.        </p>
         <br/>
+        <EmailForm/>
         <br/>
 
         <p className=" font-bold text-4xl text-center text-cyan-300"> Swipe offers<Emoji text="👇" /> </p>

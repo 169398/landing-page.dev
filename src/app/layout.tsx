@@ -12,6 +12,14 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Create your online shop today",
   description: "Easy and efficient buying and selling of goods on cumpus",
+  twitter: {
+    card: 'summary_large_image',
+    title:
+      'swipe- create your own shop and sell goods to a large audience and at a lower cost',
+    description:
+      'Quickly  set-up your shop and upload the goods you are selling  to other students conviniently.',
+    
+  }
 };
 
 export default function RootLayout({
