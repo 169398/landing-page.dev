@@ -19,7 +19,9 @@ export const metadata: Metadata = {
     title:
       'swipe- create your own shop and sell goods to a large audience and at a lower cost',
     description:
+      
       'Quickly  set-up your shop and upload the goods you are selling  to other students conviniently.',
+
     
   }
 };
