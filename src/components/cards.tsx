@@ -13,9 +13,9 @@ export function CardUi() {
 }
 export const projects = [
   {
-    title: "Effortless Setup⏰  ",
+    title: "Effortless  Setup⏰  ",
   
-    description:    " Sign up, create your shop, add pics, and sell - all in minutes!  .",
+    description:    " Sign up, create your shop, add pics, and sell-all in minutes!  .",
     link: "/"
   },
   {
