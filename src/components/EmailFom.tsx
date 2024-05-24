@@ -65,8 +65,8 @@ export default function EmailForm() {
       <div className="flex items-center gap-2 text-gray-500">
         <InfoCircledIcon />
         <p className="text-xs -mt-[0.5] max-w-sm">
-          No worries! your data is completely safe and will only be utilized to
-          provide you with updates about our product.
+          No worries ! your data is completely safe and will only be utilized to
+          provide you with updates about our product .
         </p>
       </div>
     </>
